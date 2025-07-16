@@ -1,20 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+html {
+
+    font-size: 20px;
+
+}
+
 body {
-    background-color: black;
+    background-color: #708090;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    color: white;
+    color: #FFFFFF;
+
 }
+
 
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6,
+.heading {
 
     font-weight: 400;
     font-style: italic;
+    color: #00ffff;
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 1;
+    letter-spacing: 2px;
+}
 
+h1 {
+    color: #FFFFFF;
+    font-size: 4.209rem;
+    text-shadow:
+        3px 3px 3px rgb(255, 0, 0),
+        7px 7px 3px rgb(255, 123, 0),
+        10px 10px 3px rgb(238, 255, 0),
+        12px 12px 3px rgb(0, 255, 0),
+        15px 15px 3px rgb(25, 0, 255),
+        17px 17px 3px rgb(255, 2, 234);
+}
+
+h2 {
+    font-size: 3.157rem;
+}
+
+h3 {
+    font-size: 2.369rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+h5 {
+    font-size: 1.333rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: -10px;
+}
+
+.ipsum {
+    color: #ffffff;
+    font-size: 4.209rem;
+    text-shadow: 3px 3px 1px rgb(22, 170, 211),
+                 10px 10px 1px rgb(14, 128, 163),
+                 20px 20px 1px rgb(2, 81, 105);
+
+
+
+}
+
+strong {
+    background-color: #FFFFFF;
+    color: #708090;
+    text-decoration: underline;
+}
+
+/*Letters in a text can be transformed into uppercase or lowercase and existing transformations removed. */
+
+.example-13 {
+    text-transform: uppercase;
+}
+
+.example-14 {
+    text-transform: capitalize;
+}
+
+.example-15 {
+    text-transform: lowercase;
+}
+
+.example-16 {
+    text-transform: none;
+}
+
+/* The first line of a text can be indented using absolute or relative      units.   */
+
+.example-17 {
+    text-indent: 80px;
+}
+
+.example-18 {
+    text-indent: 4em;
+}
+
+.example-19 {
+    text-indent: -80px;
+}
+
+.example-20 {
+    text-indent: -4em;
 }
