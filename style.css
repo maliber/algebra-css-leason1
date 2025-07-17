@@ -7,12 +7,16 @@ html {
 }
 
 body {
-    background-color: #708090;
+    /*background-color: #708090;*/
+    background-image: url('./background.jpg');
+    background-repeat: cover;
+   /* background-position: right;*/
+    background-color: antiquewhite;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
-    color: #FFFFFF;
+    color: #3effe5;
 
 }
 
@@ -47,15 +51,23 @@ h1 {
 }
 
 h2 {
+    color: #e67e22;
     font-size: 3.157rem;
+    border: 3px dashed #ffffff; /* Jednostavna granica */
+    margin: 5px;
+    padding: 10px;
 }
 
 h3 {
+    color: #e67e22;
     font-size: 2.369rem;
+    border: 3px solid #ffffff; /* Jednostavna granica */
 }
 
 h4 {
+    color: #e67e22;
     font-size: 1.777rem;
+    border: 3px solid #ffffff; /* Jednostavna granica */
 }
 
 h5 {
@@ -68,25 +80,28 @@ h6 {
 
 p {
     text-align: justify;
-    line-height: 1.5;
-    text-indent: -10px;
+    line-height: 1.6;
+    background: #1e7980; /* Bijela pozadina za tekst */
+    padding: 10px;
+    border-radius: 5px; /* Okrugli kutovi */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Blaga sjena */
 }
 
 .ipsum {
     color: #ffffff;
     font-size: 4.209rem;
-    text-shadow: 3px 3px 1px rgb(22, 170, 211),
-                 10px 10px 1px rgb(14, 128, 163),
-                 20px 20px 1px rgb(2, 81, 105);
+    text-shadow: -3px 3px 1px rgb(22, 170, 211),
+        -5px 5px 1px rgb(14, 128, 163),
+        -13px 13px 1px rgb(2, 81, 105);
 
 
 
 }
 
 strong {
-    background-color: #FFFFFF;
-    color: #708090;
-    text-decoration: underline;
+    color: #e67e22;
+    /* Narančasta boja za <strong> tekst */
+    font-weight: 600;
 }
 
 /*Letters in a text can be transformed into uppercase or lowercase and existing transformations removed. */
@@ -108,7 +123,7 @@ strong {
 }
 
 /* The first line of a text can be indented using absolute or relative      units.   */
-
+/*
 .example-17 {
     text-indent: 80px;
 }
@@ -123,4 +138,17 @@ strong {
 
 .example-20 {
     text-indent: -4em;
+}
+*/
+.wrapper {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border: 3px solid #000000; /* Jednostavna granica */
+    /* skračeni zapis od border-width, border-style, border-color*/
+    padding: 80px 20px;
+    margin: 20px auto;
+    background: #1b3238;
+    border-radius: 8px; /* Okrugli kutovi */
+    box-sizing: border-box;
 }
